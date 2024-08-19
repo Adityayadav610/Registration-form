@@ -48,7 +48,7 @@ app.get("/", (req, res) => {
 
 app.post("/register",async(req,res)=>{
  try{
-    const[name,email,password]=req.body;
+    const{name,email,password}=req.body;
     const registrattionData=new Registartion({
         name,
         email,
