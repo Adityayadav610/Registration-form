@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form method="post" action="/register" style="text-align: center;">
+        <label class="form-label">
+            <h2>Registration Form</h2>
+        </label><br>
+        <div class="column">
+            <label  class="form-label" >Name:</label> 
+            <input type="text" id="name" name="name" placeholder="Harry Potter" required/>
+        </label>
+
+        </div>
+        <div class="column">
+            <label class="form-label">Email:</label>
+            <input type="text" id="email" name="email" placeholder="abc@gmail.com" required/>
+        </label>
+        </div>
+        <div class="column">
+            <label class="form-label">Password:</label>
+            <input type="text" id="password" name="password" required/>
+        </label>
+        </div>
+        <button type="Submit">Submit</button>
+    </form>
+    
+</body>
+</html>
